@@ -13,19 +13,23 @@ class UsersController
 		$this->usersModel = new UsersModel();
 	}
 
-	public function createUsers(): object {
+	public function createUsers(): object 
+	{
 		return $this->usersModel->createUsersDB(request);
 	}
 
-	public function readUsers(): array|object {
+	public function readUsers(): array|object 
+	{
 		return $this->usersModel->readUsersDB();
 	}
 
-	public function updateUsers(string $idusers): object {
+	public function updateUsers(string $idusers): object 
+	{
 		return $this->usersModel->updateUsersDB((object) ['idusers'=> (int) $idusers,...((array) request)]);
 	}
 
-	public function deleteUsers(string $idusers): object {
+	public function deleteUsers(string $idusers): object 
+	{
 		return $this->usersModel->deleteUsersDB((object) ['idusers'=> $idusers]);
 	}
 }
