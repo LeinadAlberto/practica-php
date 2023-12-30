@@ -1,0 +1,177 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "d345ed8017ea265f75d5111a0e91a68c",
+    "packages": [
+        {
+            "name": "lion/database",
+            "version": "v8.9.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lion-packages/database.git",
+                "reference": "f78893553f4b0ba71b78de0667503e4e73e2850a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lion-packages/database/zipball/f78893553f4b0ba71b78de0667503e4e73e2850a",
+                "reference": "f78893553f4b0ba71b78de0667503e4e73e2850a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "LionDatabase\\": "src/LionDatabase/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Package in charge of the generation and execution of processes with databases",
+            "support": {
+                "issues": "https://github.com/lion-packages/database/issues",
+                "source": "https://github.com/lion-packages/database/tree/v8.9.0"
+            },
+            "time": "2023-08-08T18:39:01+00:00"
+        },
+        {
+            "name": "lion/request",
+            "version": "v6.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lion-packages/request.git",
+                "reference": "e8abe9fd7c17394d5294461f3cd9efa1b50afd81"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lion-packages/request/zipball/e8abe9fd7c17394d5294461f3cd9efa1b50afd81",
+                "reference": "e8abe9fd7c17394d5294461f3cd9efa1b50afd81",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^10.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "LionRequest\\": "src/LionRequest/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "library created to request input data and response requests",
+            "support": {
+                "issues": "https://github.com/lion-packages/request/issues",
+                "source": "https://github.com/lion-packages/request/tree/v6.0.0"
+            },
+            "time": "2023-10-28T16:47:22+00:00"
+        },
+        {
+            "name": "lion/route",
+            "version": "v9.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lion-packages/route.git",
+                "reference": "2d0d8057d56a103bfab5bb688d56c89b41c25d08"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lion-packages/route/zipball/2d0d8057d56a103bfab5bb688d56c89b41c25d08",
+                "reference": "2d0d8057d56a103bfab5bb688d56c89b41c25d08",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.2",
+                "phroute/phroute": "^2.2"
+            },
+            "require-dev": {
+                "lion/test": "^1.1",
+                "phpunit/phpunit": "^10.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "LionRoute\\": "src/LionRoute/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "This library has a fast router usage with regular expressions.",
+            "support": {
+                "issues": "https://github.com/lion-packages/route/issues",
+                "source": "https://github.com/lion-packages/route/tree/v9.0.0"
+            },
+            "time": "2023-12-13T20:14:08+00:00"
+        },
+        {
+            "name": "phroute/phroute",
+            "version": "v2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mrjgreen/phroute.git",
+                "reference": "c1893b885966a0c7b50b9239dd867fda7a312dfa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mrjgreen/phroute/zipball/c1893b885966a0c7b50b9239dd867fda7a312dfa",
+                "reference": "c1893b885966a0c7b50b9239dd867fda7a312dfa",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "php-coveralls/php-coveralls": "^2.5",
+                "phpunit/phpunit": "^9.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Phroute\\Phroute\\": "src/Phroute"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Joe Green",
+                    "email": "joe.green.0991@gmail.com"
+                }
+            ],
+            "description": "Fast, fully featured restful request router for PHP",
+            "keywords": [
+                "router",
+                "routing"
+            ],
+            "support": {
+                "issues": "https://github.com/mrjgreen/phroute/issues",
+                "source": "https://github.com/mrjgreen/phroute/tree/v2.2.0"
+            },
+            "time": "2022-05-04T16:22:33+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}

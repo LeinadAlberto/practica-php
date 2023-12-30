@@ -1,0 +1,18 @@
+{
+    "name": "root/html",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sleon"
+        }
+    ],
+    "require": {
+        "lion/database": "^8.9",
+        "lion/route": "^9.0",
+        "lion/request": "^6.0"
+    }
+}
